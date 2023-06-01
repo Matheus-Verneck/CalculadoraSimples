@@ -2,49 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
     <link rel="stylesheet" href="styles/styles.css" />
-
     <title>Calculadora</title>
   </head>
-
   <body>
-    <header>
-      <h1>Calculadora simples</h1>
-      <hr />
-      <br />
-    </header>
-
-    <div id="form">
-      <input
-        type="number"
-        id="n1"
-        placeholder="Digite o primeiro número"
-      /><br /><br />
-      <select id="selector">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="*">x</option>
-        <option value="/">/</option></select
-      ><br /><br />
-
-      <input
-        type="number"
-        id="n2"
-        placeholder="Digite o segundo número"
-      /><br /><br />
-
-      <button onclick="calcular()">Calcular</button>
+    <div class="calculator">
+      <header>
+        <h1>Calculadora Simples</h1>
+      </header>
+      <div class="calculator-form">
+        <input type="number" id="n1" placeholder="Digite o primeiro número" />
+        <select id="selector">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">×</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="n2" placeholder="Digite o segundo número" />
+        <button onclick="calcular()">Calcular</button>
+        <h3 id="resultado"></h3>
+      </div>
+      <p class="author">Feito por: Matheus Verneck</p>
     </div>
-
-    <div>
-      <h3 id="resultado"></h3>
-    </div>
-
-    <p id="me">Feito por: Matheus Verneck</p>
-
     <script src="scripts/scripts.js"></script>
   </body>
 </html>
