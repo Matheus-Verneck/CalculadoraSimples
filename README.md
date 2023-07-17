@@ -1,1 +1,1 @@
-Olá, bem vindo ao meu primeiro projeto simples! *atualizado
+Olá, bem vindo ao meu primeiro projeto simples! 
